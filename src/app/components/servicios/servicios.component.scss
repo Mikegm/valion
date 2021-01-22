@@ -1,0 +1,61 @@
+.solucion{
+    .blue{
+        color: #003463;
+    }
+    .h4{
+        margin: auto;
+        text-align: center;
+        line-height: 32px;
+    }
+    .icons-solucion{
+        img{
+            display: block;
+            margin: auto;
+        }
+        .title {
+            color: #978F72;
+            letter-spacing: 4px;
+            font-size: 15px;
+            margin-top: 1rem;
+            border-bottom: 1px solid #978F72;
+            padding-bottom: 1rem;
+            font-family: 'metropolisbold';
+    }
+    ul{
+        list-style: none;
+        color: #2C2C2C;
+        font-size: 13px;
+        padding-left: 0;
+        li{
+            margin-bottom: 0.5rem;
+            svg{
+                color: #978F72;
+                margin-right: 10px;
+            }
+        }
+        
+        
+    }
+    &.opblue{
+        .title{
+            color: #003463;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+        ul{
+            li{
+                svg{
+                    color: #003463;
+                }
+            }
+        }
+       
+    }
+    }
+   hr{
+    background: #978F72;
+   }
+   .gold{
+       color: #978F72;
+   }
+}

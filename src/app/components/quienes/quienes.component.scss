@@ -1,0 +1,48 @@
+.masthead{
+    padding-bottom: 0;
+    &.quienes{
+        .bgwhite{
+            padding: 2rem 5rem;
+            background-color: #fff;
+            color:#2C2C2C;
+            font-size: 15px;
+        }
+        .bgquines{
+            background-image: url(/assets/bg_quienes@2x.png);
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        .info{
+            padding: 1rem 2rem;
+        }
+    }
+}
+.ingenio {
+    background-image: url(/assets/bg_quienesbt@2x.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    p{
+        background: #003463;
+        position: absolute;
+        width: 500px;
+        right: 0;
+        color: #fff;
+        padding: 2rem;
+        top: calc(20rem + 74px);
+        max-width: 100%;
+    }
+}
+@media (max-width: 992px) { 
+    .masthead{
+        &.quienes{
+            .bgquines{
+                background-image: none;
+
+            }
+        }
+    }
+}

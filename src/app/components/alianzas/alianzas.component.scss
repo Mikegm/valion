@@ -1,0 +1,35 @@
+.alianza {
+    background-image: url(/assets/bg_alianza@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    height: calc(100vh + -65px);
+    background-attachment: fixed;
+    background-position: center;
+    .logosalianza {
+        color: #fff;
+        display: flex;
+        margin: 5rem auto auto;
+        p {
+            padding: 1.5rem 8rem;
+            border: 1px solid #978F72;
+            font-family: 'metropolislight';
+            display: inline-block;
+            margin: auto;
+            justify-content: center;
+            strong{
+                font-family: 'metropolisbold';
+            }
+        }
+        
+    }
+    .logosbt {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        img {
+            margin: auto;
+            display: flex;
+        }
+    }
+}

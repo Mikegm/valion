@@ -1,0 +1,122 @@
+.blog {
+    background-image: url(/assets/bg_blog@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    .strong{
+        display: inline-flex;
+        letter-spacing: 6px;
+        font-size: 28px;
+        font-family: 'metropolisbold';
+    }
+    .card{
+        width: 280px;
+        margin: auto;
+        border-radius: 0;
+        img{
+            margin: auto;
+            display: block;
+            padding: .3rem 0rem 0 0.7rem;
+        }
+        .card-body{
+            font-size: 14px;
+            h5{
+                color: #003463;
+                font-size: 14px;
+            }
+        }
+    }
+    .perspe{
+        color: #fff;
+        p{
+            width: 325px;
+            margin: auto;
+            line-height: 27px;
+        }
+        .titlegold{
+            color: #978F72;
+            margin: initial;
+            letter-spacing: 6px;
+        }
+    }
+ 
+}
+
+.digital{
+    position: relative;
+    text-align: center;
+    padding: 1rem ;
+    background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left,  #000000 2%, #2c2c2c 49%, #2c2c2c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #000000 2%,#2c2c2c 49%,#2c2c2c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #000000 2%,#2c2c2c 49%,#2c2c2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#2c2c2c',GradientType=1 ); /* IE6-9 */
+p{
+    margin-bottom: 0;
+    color: #978F72;
+    font-family: 'digital-7regular';
+    font-size: 20px;
+}
+img {
+    position: absolute;
+    right: 22px;
+    top: 15px;
+}
+}
+.nav-tabs {
+    border-bottom: 1px solid #978F72;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000;
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-tabs .nav-link {
+    color: #978F72;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.categ {
+    img{
+        border-bottom: 1px solid #978F72;
+        padding-bottom: 15px;
+        max-width: 100%;
+        display: block;
+        width: 100%;
+    }
+    .title {
+        margin-top: 1rem;
+        color: #2C2C2C;
+        font-family: 'metropolisbold';
+    }
+    .minfo {
+        font-size: 13px;
+    }
+}
+.posts{
+    .blue{
+        color: #003463;
+    }
+    img {
+        margin: auto;
+        display: block;
+    }
+    h5{
+        font-size: 27px;
+        margin-bottom: 1.5rem;
+        color: #2C2C2C;
+        font-family: 'metropolisbold';
+    }
+    p{
+        font-size: 14px;
+        color: #2C2C2C;
+    }
+    a {
+        color: #003463;
+        font-size: 13px;
+    }
+}

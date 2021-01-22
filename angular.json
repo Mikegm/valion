@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "valiont"
+    }
+  },
+  "defaultProject": "valiont",
+  "cli": {
+    "analytics": "031553ae-1d03-410e-907e-5325dada09b3"
+  }
 }

@@ -1,0 +1,32 @@
+.estrategia{
+    background-image: url(/assets/bg_estrategia@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    .info-beta{
+        display: flex;
+        flex-direction: column;
+       padding: 2rem;
+        margin: auto;
+        p{
+            color: #2C2C2C;
+            font-size: 14px;
+        }
+    }
+
+    }
+    .circle {
+        height: calc(100vh + -365px);
+        img{
+            position: absolute;
+            margin: auto;
+            display: block;
+            left: 0;
+            right: 0;
+            top: 67rem;
+            bottom: 0;
+            max-width: 100%;
+        }
+    }
