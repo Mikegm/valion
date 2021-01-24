@@ -1,0 +1,35 @@
+.compromiso{
+    background-image: url(/assets/bg_compromiso@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    height: calc(100vh + -65px);
+    background-attachment: fixed;
+    background-position: center;
+    .txtcomp {
+        display: block;
+        margin: auto;
+        width: auto;
+        margin-top: 3rem;
+        color: #fff;
+        padding: 0 3rem;
+        font-size: 15px;
+        img{
+            margin-top: 6rem;
+        }
+    }
+    .fbottom{
+        color: #978F72;
+        text-align: center;
+        letter-spacing: 3px;
+        font-family: 'metropolisbold';
+        position: absolute;
+        right: 0;
+        bottom: 60px;
+        span{
+            display: block;
+            font-family: 'metropolislight';
+            letter-spacing: 6px;
+        }
+    }
+}

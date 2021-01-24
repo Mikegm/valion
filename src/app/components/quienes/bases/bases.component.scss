@@ -1,0 +1,113 @@
+.masthead {
+    &.bases
+    {
+        padding-bottom: 1rem;
+    }
+    
+}
+.ourb {
+    .structure {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0 2rem 0 8rem;
+        
+        
+        p{
+            padding: 0 20px;
+        }
+       
+    }
+    img{
+        max-width: 100%;
+        display: block;
+        width: 100%;
+    }
+}
+.filosof{
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(left,  #000000 2%, #2c2c2c 49%, #2c2c2c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #000000 2%,#2c2c2c 49%,#2c2c2c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #000000 2%,#2c2c2c 49%,#2c2c2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#2c2c2c',GradientType=1 ); /* IE6-9 */
+    img{
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+    .organiza {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        padding: 4rem 3rem 0 5rem;
+        flex-direction: column;
+        p{
+            color: #fff;
+            margin-top: 3rem;
+                }
+                span{
+                    font-size: 20px;
+                    font-family: 'metropolisbold';
+
+                }
+               .lema{
+                    color: #978F72;
+                    text-align: center;
+                    letter-spacing: 4px;
+                    margin-top: 2rem;
+                    p{
+                        color: #978F72;
+                        padding: 0;
+                        margin-top: 0;
+                    }
+                }        
+    }
+}
+.txtvalor {
+    padding: 3rem 1rem 0;
+    
+    p{
+        color: #003463;
+        font-family: 'metropolismedium_italic';
+        font-size: 14px;
+    }
+    h6 {
+        margin-top: 3rem;
+        border-bottom: 0;
+        text-indent: 0;
+    }
+    .titles{
+        color: #978F72;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+    }
+    img {
+        position: absolute;
+        right: 50px;
+        top: 70px;
+        width: 70px;
+    }
+}
+@media (max-width: 768px) {
+
+    .ourb {
+        .structure {
+            padding: 1rem;
+        }
+    }
+    .pabsol {
+        position: absolute;
+    }
+    .txtvalor p{
+        color: #fff;
+    }
+}
+
+h6{
+    color: #978F72;
+    font-family: 'metropolisbold';
+    letter-spacing: 2px;
+    border-bottom: 1px solid #978F72;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}

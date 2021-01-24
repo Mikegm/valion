@@ -25,6 +25,42 @@
   font-size: 80%;
   padding: 0.8rem;
 }
+li:hover .submenu {
+  display: block;
+    max-height: 200px;
+    width: 300px;
+    position: absolute;
+    background: #2C2C2C;
+    top: 100%;
+    margin-left: 20px;
+    padding-left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+  position: absolute;
+  a {
+    font-size: 12px!important;
+    &:hover{
+      width: 100%;
+      background: #000;
+    }
+  }
+}
+@media (max-width: 768px) {
+  li:hover .submenu
+   {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 0.1rem;
+   padding-bottom: 0-11rem; 
+}
+}
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -120,6 +156,7 @@
     padding-left: 0;
   }
 }
+
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;

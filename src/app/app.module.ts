@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MainComponent } from './components/main/main.component';
 import { QuienesComponent } from './components/quienes/quienes.component';
+import { CompromisoComponent } from './components/quienes/compromiso/compromiso.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AlianzasComponent } from './components/alianzas/alianzas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { EstrategiasComponent } from './components/estrategias/estrategias.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { BasesComponent } from './components/quienes/bases/bases.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { BlogComponent } from './components/blog/blog.component';
     ContactoComponent,
     ServiciosComponent,
     EstrategiasComponent,
-    BlogComponent
+    BlogComponent,
+    CompromisoComponent,
+    BasesComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +38,14 @@ import { BlogComponent } from './components/blog/blog.component';
       [
       { path: 'main',component: MainComponent},
       { path: 'quienes',component: QuienesComponent},
+        // children :[ 
+        //   {
+        //     path: 'compromiso',component: CompromisoComponent
+        //   }
+        // ]
+      
+      { path: 'compromiso',component: CompromisoComponent},
+      { path: 'bases',component: BasesComponent},
       {path: 'alianzas',component: AlianzasComponent},
       {path: 'servicios',component: ServiciosComponent},
       {path: 'estrategias',component: EstrategiasComponent},
