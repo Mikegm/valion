@@ -1,0 +1,17 @@
+
+<header class="masthead intro">
+    <div class="container ">
+        <div class="row">
+            <div class="col-12">
+                <video #videoPlayer (click)="startVideo()" width="100%" height="100%" oncanplay="this.play()" onloadedmetadata="this.muted = true" autoplay>
+                <source src="assets/video/intro.mp4"  type="video/mp4">
+                </video>
+            </div>
+            <!-- <p>Video clicked: {{videoClicked}}</p> -->
+            <div class="col-12">
+                <a [routerLink]="['/main']" class="btn btn-intro">Entrar</a>
+            </div>
+          
+        </div>
+        </div>
+        </header>

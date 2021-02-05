@@ -14,6 +14,7 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
 import { EstrategiasComponent } from './components/estrategias/estrategias.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BasesComponent } from './components/quienes/bases/bases.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 
 @NgModule({
@@ -29,13 +30,15 @@ import { BasesComponent } from './components/quienes/bases/bases.component';
     EstrategiasComponent,
     BlogComponent,
     CompromisoComponent,
-    BasesComponent
+    BasesComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(
       [
+      { path: 'intro',component: IntroComponent},
       { path: 'main',component: MainComponent},
       { path: 'quienes',component: QuienesComponent},
         // children :[ 

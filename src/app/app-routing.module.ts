@@ -16,7 +16,7 @@ import { BasesComponent } from './components/quienes/bases/bases.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/main', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
+  { path: '', redirectTo: '/intro', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
   {path: 'navbar',component: NavBarComponent,children :
     [ {path: 'main',component: MainComponent},
    
