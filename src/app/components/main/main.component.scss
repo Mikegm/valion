@@ -2,9 +2,10 @@
     background-image: url(/assets/bg_smart@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: calc(5rem + 74px);
+    padding-top: calc(16rem + 74px);
     padding-bottom: 6rem;
     background-position: center;
+    position: relative;
           
           .masthead .masthead-heading {
             font-size: 2.75rem;
@@ -80,7 +81,21 @@
             }
           }
         }   
-
+        .fit-banner {
+          position: absolute;
+          color: #fff;
+          left: 0;
+          top: 50%;
+          width: 90%;
+          padding: 1rem 5rem;
+          background: rgb(2,0,36);
+          background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0.1) 100%);
+          p{
+            font-size: 23px;
+            letter-spacing: 7px;
+            margin-bottom: 0;
+        }
+      }
 }
 .container,
 .container-fluid,
@@ -118,7 +133,7 @@
   
 @media (min-width: 992px) {
     .masthead {
-      padding-top: calc( 5rem + 104px);
+      padding-top: calc( 35rem + 104px);
       padding-bottom: 6rem;
     }
     .masthead .masthead-heading {

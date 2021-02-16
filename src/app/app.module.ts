@@ -15,6 +15,7 @@ import { EstrategiasComponent } from './components/estrategias/estrategias.compo
 import { BlogComponent } from './components/blog/blog.component';
 import { BasesComponent } from './components/quienes/bases/bases.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { IntroComponent } from './components/intro/intro.component';
     BlogComponent,
     CompromisoComponent,
     BasesComponent,
-    IntroComponent
+    IntroComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
