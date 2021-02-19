@@ -18,15 +18,22 @@
 
     }
     .circle {
-        height: calc(100vh + -365px);
+        height: calc(100vh + -235px);
         img{
-            position: absolute;
+            position: relative;
             margin: auto;
             display: block;
             left: 0;
             right: 0;
-            top: 67rem;
-            bottom: 0;
+            bottom: 171px;
             max-width: 100%;
         }
+    }
+
+    @media (max-width: 768px) { 
+    .circle {
+        img{
+            bottom: 131px;
+        }
+    }
     }

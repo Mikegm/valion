@@ -15,25 +15,5 @@
         display: block;
         height: 15px;
     }
-    .tels{
-        color: #D0D2D3;
-        text-align: center;
-        background: #000000;
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .agend{
-            font-family: 'metropolislight';
-            letter-spacing: 4px;
-            font-size: 16px;
-        }
-         a{
-            color: #978F72;
-            font-size: 15px;
-        }
-        p{
-            margin-bottom: 0;
-        }
-    }
+    
 }
