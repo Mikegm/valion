@@ -14,7 +14,6 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
 import { EstrategiasComponent } from './components/estrategias/estrategias.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BasesComponent } from './components/quienes/bases/bases.component';
-import { IntroComponent } from './components/intro/intro.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { VideoLlamadaComponent } from './components/footer/video-llamada/video-llamada.component';
 
@@ -33,7 +32,6 @@ import { VideoLlamadaComponent } from './components/footer/video-llamada/video-l
     BlogComponent,
     CompromisoComponent,
     BasesComponent,
-    IntroComponent,
     CarouselComponent,
     VideoLlamadaComponent
   ],
@@ -42,7 +40,6 @@ import { VideoLlamadaComponent } from './components/footer/video-llamada/video-l
     AppRoutingModule,
     RouterModule.forRoot(
       [
-      { path: 'intro',component: IntroComponent},
       { path: 'main',component: MainComponent},
       { path: 'quienes',component: QuienesComponent},
         // children :[ 

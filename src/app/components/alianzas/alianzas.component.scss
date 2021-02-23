@@ -33,3 +33,19 @@
         }
     }
 }
+
+
+@media (max-width: 768px) {
+    .masthead {
+        padding-top: calc(0rem + 74px);
+        &.alianza{
+            height: calc(100vh + 200px);
+    .logosalianza {
+        margin: 1rem auto auto; 
+        p{
+            padding: 1rem;
+        }
+    }
+        }
+    }
+}

@@ -16,7 +16,7 @@ import { BasesComponent } from './components/quienes/bases/bases.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/intro', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
+  { path: '', redirectTo: '/main', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
   {path: 'navbar',component: NavBarComponent,children :
     [ {path: 'main',component: MainComponent},
    
@@ -38,7 +38,6 @@ const routes: Routes = [
   },
   { path: 'compromiso',component: CompromisoComponent},
   { path: 'bases',component: BasesComponent},
-  {path: 'main',component: MainComponent},
 ];
 
 @NgModule({

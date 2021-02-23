@@ -56,5 +56,6 @@ img.icontact {
 @media (max-width: 768px)  { 
     .masthead.contacto {
         padding-top: calc(1rem + 74px);
+        height: calc(100vh + 230px);
     }
 }
