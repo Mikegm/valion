@@ -50,6 +50,9 @@ li:hover .submenu {
     }
   }
 }
+.link-login{
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   li:hover .submenu
    {
@@ -492,3 +495,8 @@ li:hover .submenu {
   
 }
 
+.link-login {
+  img{
+    width: 18px;
+  }
+}

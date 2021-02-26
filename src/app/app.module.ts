@@ -16,6 +16,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BasesComponent } from './components/quienes/bases/bases.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { VideoLlamadaComponent } from './components/footer/video-llamada/video-llamada.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { VideoLlamadaComponent } from './components/footer/video-llamada/video-l
     CompromisoComponent,
     BasesComponent,
     CarouselComponent,
-    VideoLlamadaComponent
+    VideoLlamadaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

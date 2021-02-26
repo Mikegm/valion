@@ -34,11 +34,12 @@
                     <li class="nav-item mx-0 mx-lg-1">
                         <a [routerLink]="['blog']" routerLinkActive="router-link-active" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"><i class="fas fa-circle"></i> Blog </a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a [routerLink]="['alianzas']" routerLinkActive="router-link-active" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"><i class="fas fa-circle"></i> Alianzas </a>
-                    </li>
+                    
                     <li class="nav-item mx-0 mx-lg-1">
                         <a [routerLink]="['contacto']" routerLinkActive="router-link-active" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"><i class="fas fa-circle"></i> Contacto </a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a type="button" routerLinkActive="router-link-active" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger link-login" data-toggle="modal" data-target="#LoginModal"><img src="assets/icon_login.svg"> Login </a>
                     </li>
                 </ul>
             </div>
@@ -47,4 +48,5 @@
  </div>
  
 </nav>
+<modal-login></modal-login>
 <router-outlet></router-outlet>
