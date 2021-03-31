@@ -29,7 +29,12 @@
             max-width: 100%;
         }
     }
-
+    .estrategia .info-beta p.bestof {
+        color: #978F72!important;
+        font-size: 18px!important;
+        letter-spacing: 1.3px;
+        font-family: 'metropolisbold';
+    }
     @media (max-width: 768px) { 
     .circle {
         img{
