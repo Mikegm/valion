@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-position: center;
     form{
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
     .formcontact {
         margin: auto;
@@ -29,7 +29,10 @@
     .btn-enviar {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        align-items: flex-end;
         .btn{
             background: #404041;
             color: #978F72;
@@ -48,7 +51,7 @@
 img.icontact {
     display: flex;
     margin: 1rem auto 0;
-    width: 80px;
+    width:60px;
     max-width: 100%;
 
 }
