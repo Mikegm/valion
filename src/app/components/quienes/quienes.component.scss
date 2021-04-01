@@ -39,6 +39,9 @@
 @media (max-width: 992px) { 
     .masthead{
         &.quienes{
+            .bgwhite{
+                padding: 2rem 1rem;;
+            }
             .bgquines{
                 background-image: none;
 
