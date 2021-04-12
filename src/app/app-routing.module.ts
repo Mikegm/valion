@@ -16,9 +16,10 @@ import { BasesComponent } from './components/quienes/bases/bases.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/main', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
+  {path: "", component: MainComponent},
+  // { path: '', redirectTo: '', pathMatch: 'full' ,  data: { breadcrumb: 'Home'}},
   {path: 'navbar',component: NavBarComponent,children :
-    [ {path: 'main',component: MainComponent},
+    [ {path: '',component: MainComponent},
    
     {path: 'alianzas',component: AlianzasComponent},
     {path: 'servicios',component: ServiciosComponent},
