@@ -18,6 +18,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { VideoLlamadaComponent } from './components/footer/video-llamada/video-llamada.component';
 import { LoginComponent } from './components/login/login.component';
 import { PostComponent } from './components/blog/post/post.component';
+import { ViewpostComponent } from './components/blog/viewpost/viewpost.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { PostComponent } from './components/blog/post/post.component';
     CarouselComponent,
     VideoLlamadaComponent,
     LoginComponent,
-    PostComponent
+    PostComponent,
+    ViewpostComponent
   ],
   imports: [
     BrowserModule,
