@@ -9,23 +9,24 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          
             <div class="form-group">
                 <label for="exampleFormControlInput1">Titulo del post</label>
-                <input type="text" class="form-control" id="" placeholder="Titulo">
+                <input [(ngModel)]="title" type="text" class="form-control" id="" placeholder="Titulo">
               </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Descripción</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea [(ngModel)]="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-          </form>
-          <p class="exito">
+          
+          <p *ngIf="sendedFlag" class="exito">
               ¡Nuevo post creado con éxito!
           </p>
+
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-secondary btn-more">Postear</button>
+          <button *ngIf="!sendedFlag" type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button *ngIf="!sendedFlag" (click)="createPostToSend()" type="button" class="btn btn-secondary btn-more">Postear</button>
         </div>
       </div>
     </div>

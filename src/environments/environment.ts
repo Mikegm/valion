@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+
+  production: false,
+  server: "http://104.236.20.61:3000/",
+  global: "api/",
+
+  posts:{
+    getPosts: "posts/get-posts",
+    createPosts: "posts/new-post",
+  }
 };
 
 /*
