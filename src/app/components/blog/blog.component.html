@@ -199,11 +199,13 @@
         <span>PERSPECTIVAS</span>
         ESPECIAL CORONAVIRUS
       </h3>
-      <h5>Cómo el coronavirus está afectando los mercados </h5>
-      <p>El ritmo de distribución en medio del resurgimiento del virus será un punto focal en una semana con pocos datos nuevos. Hasta ahora, los mercados han ignorado los disturbio...El ritmo de distribución en medio del resurgimiento del virus será un punto focal en una semana con pocos datos nuevos. Hasta ahora, los mercados han ignorado los disturbio...
+      <div *ngFor="let post of posts" class="posts">
+        <h5>{{post.title}}</h5>
+        <p>{{post.description}}</p>
+        <a href="#">Leer más</a>
+ 
+      </div>
 
-      </p>
-      <a href="#">Leer más</a>
     </div>
 
 
