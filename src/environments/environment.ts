@@ -5,7 +5,7 @@
 export const environment = {
 
   production: false,
-  server: "http://104.236.20.61:3000/",
+  server: "https://104.236.20.61:3000/",
   global: "api/",
 
   posts:{
